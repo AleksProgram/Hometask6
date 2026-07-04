@@ -1,0 +1,45 @@
+.olimpic_container{
+    width: 640px;
+    height: 640px;
+    position: relative;
+}
+
+.ring {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    position: absolute;
+}
+
+.round_blue {
+    border-color: blue;
+    left: 0;
+    z-index: 500;
+}
+
+.round_black {
+    border-color:  black;
+    left: 130px;
+    z-index: 400;
+}
+
+.round_red {
+    border-color: red;
+    left: 260px;
+    z-index: 300;
+}
+
+.round_orange {
+    border-color:  orange;
+    left: 65px;
+    top: 60px;
+    z-index: 200;
+}
+
+.round_green {
+    border-color:  green;
+    left: 200px;
+    top: 60px;
+    z-index: 100;
+}
